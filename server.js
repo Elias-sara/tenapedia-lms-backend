@@ -178,42 +178,17 @@ app.use((err, req, res, next) => {
 });
 
 // Start server with port handling
-const startServer = async () => {
-    try {
-        await connectDB();
-        
+function startServer() {
+    connectDB().then(() => {
         const PORT = process.env.PORT || 5000;
-        let currentPort = PORT;
-        const maxPortAttempts = 10;
-
-        const tryPort = (port) => {
-            return new Promise((resolve, reject) => {
-                const server = app.listen(port)
-                    .on('error', (err) => {
-                        if (err.code === 'EADDRINUSE') {
-                            console.log(`Port ${port} is in use, trying next port`);
-                            resolve(false);
-                        } else {
-                            reject(err);
-                        }
-                    })
-                    .on('listening', () => {
-                        console.log(`Server is running on port ${port}`);
-                        resolve(true);
-                    });
-            });
-        };
-
-        for (let i = 0; i < maxPortAttempts; i++) {
-            const success = await tryPort(currentPort);
-            if (success) break;
-            currentPort++;
-        }
-    } catch (error) {
-        console.error('Failed to start server:', error);
-        process.exit(1);
-    }
-};
+        app.listen(PORT, () => {
+            console.log(`Server running on port ${PORT}`);
+        }).on('error', (error) => {
+            console.error('Server startup error:', error);
+            process.exit(1);
+        });
+    });
+}
 
 // Handle process termination
 process.on('SIGINT', async () => {

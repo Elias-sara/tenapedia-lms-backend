@@ -1,0 +1,612 @@
+category:
+  name: "Nursing Specialization"
+  description: "Advanced professional development courses for specialized nursing practice, focusing on critical care, diagnostic skills, and evidence-based patient management"
+  icon: "/icons/nursing-specialization.svg"
+  order: 1
+
+instructor:
+  firstName: "Elizabeth"
+  lastName: "Hartman"
+  email: "elizabeth.hartman@cardiacnursing.edu"
+  password: "ProfessionalEducator2025!"
+  role: "instructor"
+  phone: "1-650-123-4567"
+  profile:
+    bio: "Board-certified Cardiovascular Nurse Practitioner with 20+ years of clinical experience. Fellow of the American Heart Association, specializing in advanced cardiac care and nursing education."
+    avatar: "/images/instructors/dr-elizabeth-hartman.jpg"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  isActive: true
+  createdAt: "2024-01-15"
+  updatedAt: "2025-01-10"
+
+course:
+  title: "NCLEX Cardiovascular Nursing Mastery"
+  description: "A comprehensive, advanced-level course designed to prepare nursing professionals for the cardiovascular section of the NCLEX examination. This intensive program provides an in-depth exploration of cardiovascular anatomy, pathophysiology, diagnostic techniques, and evidence-based patient care strategies. Students will develop critical thinking skills, advanced clinical reasoning, and comprehensive understanding of cardiovascular health management."
+  category: "Nursing Specialization"
+  image: "/images/courses/nclex-cardiovascular-mastery.jpg"
+  instructor:
+    name: "Elizabeth Hartman"
+    id: null  # Will be populated during seeding
+    bio: "Board-certified Cardiovascular Nurse Practitioner with 20+ years of clinical experience. Fellow of the American Heart Association, specializing in advanced cardiac care and nursing education."
+    image: "/images/instructors/dr-elizabeth-hartman.jpg"
+  level: "Advanced"
+  duration: "12 weeks"
+  price: 499.99
+  learningOutcomes:
+    - "Master advanced cardiovascular assessment techniques"
+    - "Develop comprehensive understanding of cardiac pathophysiology"
+    - "Analyze complex cardiac diagnostic procedures"
+    - "Implement evidence-based interventions for cardiovascular patients"
+    - "Prepare comprehensively for NCLEX cardiovascular nursing section"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  status: "published"
+  isPublished: true
+  createdAt: "2024-11-15"
+  updatedAt: "2025-01-10"
+  lastUpdated: "2025-01-10"
+
+modules:
+  - title: "Advanced Cardiovascular Anatomy and Physiology"
+    courseTitle: "NCLEX Cardiovascular Nursing Mastery"
+    description: "In-depth exploration of cardiac structure, function, and complex physiological mechanisms of the cardiovascular system."
+    courseId: null  # Will be populated during seeding
+    order: 1
+    learningObjectives:
+      - "Understand advanced cardiac anatomy"
+      - "Analyze complex cardiovascular physiological processes"
+    links:
+      - title: "Cardiac Anatomy Reference"
+        url: "https://example.com/cardiac-anatomy"
+      - title: "Advanced Cardiovascular Physiology"
+        url: "https://example.com/cardio-physiology"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Cardiovascular Physiological Mechanisms"
+    courseTitle: "NCLEX Cardiovascular Nursing Mastery"
+    description: "Comprehensive analysis of advanced cardiovascular physiological processes, including intricate hemodynamic interactions and regulatory mechanisms."
+    courseId: null  # Will be populated during seeding
+    order: 2
+    learningObjectives:
+      - "Analyze advanced hemodynamic principles"
+      - "Understand complex cardiovascular regulatory mechanisms"
+    links:
+      - title: "Advanced Hemodynamics"
+        url: "https://example.com/hemodynamics"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+lessons:
+  - moduleId: null  # Will be populated during seeding
+    title: "Cardiac Structural Complexity"
+    title2: "Advanced Heart Anatomy"
+    subtitle: "Comprehensive Cardiac Structural Analysis"
+    moduleTitle: "Advanced Cardiovascular Anatomy and Physiology"
+    content: "Detailed exploration of heart chambers, valves, and intricate structural components. This lesson delves into the complex anatomical structures of the human heart, examining the precise arrangement of cardiac tissues, blood flow pathways, and the biomechanical interactions within the cardiovascular system."
+    description: "An in-depth, comprehensive analysis of the intricate anatomy of the human heart, focusing on structural complexity and functional significance."
+    videoUrl: "https://example.com/cardiac-anatomy-video"
+    videoTitle: "Advanced Cardiac Anatomy Video Lecture"
+    duration: 45  # minutes
+    order: 1
+    resources:
+      - title: "Gray's Anatomy of the Human Heart"
+        url: "https://medical-library.org/cardiac-anatomy-reference"
+      - title: "3D Interactive Cardiac Anatomy Atlas"
+        url: "https://virtual-anatomy.com/heart-structures"
+      - title: "Cardiovascular Research Institute Anatomical Guide"
+        url: "https://cardio-research.org/heart-anatomy-guide"
+    links:
+      - title: "Cardiac Anatomy Research Database"
+        url: "https://cardiac-anatomy-research.org"
+      - title: "Advanced Medical Visualization Platform"
+        url: "https://medical-visualization.com/heart-anatomy"
+      - title: "International Journal of Cardiac Morphology"
+        url: "https://cardiac-morphology-journal.org/structural-complexity"
+    note: "Key structural details of cardiac anatomy"
+    note1: "Chamber and valve specifics"
+    note2: "Functional anatomy insights"
+    note3: "Biomechanical interactions in cardiac structures"
+    note4: "Cellular-level architectural complexity"
+    note5: "Hemodynamic implications of structural design"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - moduleId: null  # Will be populated during seeding
+    title: "Cardiovascular Physiological Mechanisms"
+    title2: "Advanced Cardiac Function Dynamics"
+    subtitle: "Complex Hemodynamic Principles"
+    moduleTitle: "Cardiovascular Physiological Mechanisms"
+    content: "Comprehensive analysis of advanced cardiovascular physiological processes, including intricate hemodynamic interactions, cellular signaling, and regulatory mechanisms. This lesson explores the complex interplay of physiological systems that govern cardiovascular function, from molecular-level interactions to systemic regulatory processes."
+    description: "Advanced exploration of cardiovascular system dynamics, providing a deep understanding of the intricate physiological mechanisms underlying cardiac function."
+    duration: 150
+    videoUrl: "/videos/advanced-cardiac-physiology.mp4"
+    videoTitle: "Cardiovascular System: Advanced Physiological Interactions"
+    order: 2
+    resources:
+      - title: "Advanced Cardiovascular Physiology Textbook"
+        url: "https://medical-education.org/cardio-physiology-advanced"
+      - title: "Molecular Mechanisms in Cardiovascular Regulation"
+        url: "https://molecular-cardiology.com/regulatory-mechanisms"
+      - title: "Comprehensive Hemodynamics Research Compendium"
+        url: "https://hemodynamics-research.org/comprehensive-guide"
+    links:
+      - title: "Cardiovascular Physiology Research Network"
+        url: "https://cardiovascular-physiology-research.org"
+      - title: "International Society of Cardiovascular Pharmacology"
+        url: "https://cardio-pharmacology.org/physiological-mechanisms"
+      - title: "Advanced Cardiovascular Monitoring Technologies"
+        url: "https://cardio-monitoring-tech.com/physiological-insights"
+    note: "Complex physiological mechanisms and regulatory systems"
+    note1: "Advanced blood circulation dynamics"
+    note2: "Intricate cardiac cycle regulation"
+    note3: "Neurohormonal modulation of cardiovascular function"
+    note4: "Electrophysiological mechanisms of cardiac contraction"
+    note5: "Cellular signaling in cardiovascular homeostasis"
+    note6: "Adaptive responses in cardiovascular stress conditions"
+    note7: "Integrative physiological control mechanisms"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+quizzes:
+  - title: "Advanced Cardiovascular Anatomy and Physiology Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Cardiovascular Anatomy and Physiology"
+    description: "Comprehensive evaluation of advanced cardiovascular anatomical and physiological knowledge for specialized nursing practice."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    isPublished: true
+    studentsEnrolled:
+      - "initial_student_quiz_1"
+      - "initial_student_quiz_2"
+    questions:
+      - type: "multiple-choice"
+        text: "Which part of the heart is responsible for pumping oxygenated blood to the body?"
+        options:
+          - text: "Right Ventricle"
+          - text: "Left Ventricle"
+          - text: "Right Atrium"
+          - text: "Left Atrium"
+        correctAnswer: "Left Ventricle"
+        explanation: "The left ventricle is the strongest chamber of the heart, responsible for pumping oxygenated blood to the entire body through the aorta."
+        points: 1
+
+      - type: "true-false"
+        text: "The sinoatrial (SA) node is located in the right atrium and acts as the heart's natural pacemaker."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The sinoatrial (SA) node is indeed located in the right atrium and generates electrical impulses that control the heart's rhythm."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of cardiac valves?"
+        options:
+          - text: "To generate electrical impulses"
+          - text: "To produce heart sounds"
+          - text: "To prevent backflow of blood"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To prevent backflow of blood"
+        explanation: "Cardiac valves ensure unidirectional blood flow by preventing backflow between heart chambers."
+        points: 2
+
+      - type: "short-answer"
+        text: "Name the four primary chambers of the human heart."
+        options: 
+          - text: "Right Atrium"
+          - text: "Right Ventricle"
+          - text: "Left Atrium"
+          - text: "Left Ventricle"
+        correctAnswer: "Right Atrium, Right Ventricle, Left Atrium, Left Ventricle"
+        explanation: "The human heart consists of four chambers: two atria (right and left) and two ventricles (right and left). The right side handles deoxygenated blood, while the left side manages oxygenated blood."
+        points: 4
+
+      - type: "multiple-choice"
+        text: "Which blood vessels carry deoxygenated blood from the body back to the heart?"
+        options:
+          - text: "Arteries"
+          - text: "Capillaries"
+          - text: "Veins"
+          - text: "Lymphatic vessels"
+        correctAnswer: "Veins"
+        explanation: "Veins are responsible for carrying deoxygenated blood from body tissues back to the right atrium of the heart."
+        points: 1
+
+      - type: "true-false"
+        text: "The coronary arteries supply blood directly to the heart muscle itself."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Coronary arteries provide oxygen and nutrients to the heart muscle (myocardium), ensuring its continuous function."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which chamber of the heart pumps deoxygenated blood to the lungs?"
+        options:
+          - text: "Left Ventricle"
+          - text: "Right Ventricle"
+          - text: "Left Atrium"
+          - text: "Right Atrium"
+        correctAnswer: "Right Ventricle"
+        explanation: "The right ventricle pumps deoxygenated blood to the lungs through the pulmonary artery for oxygenation."
+        points: 2
+
+      - type: "multiple-choice"
+        text: "What is the primary component of blood responsible for oxygen transport?"
+        options:
+          - text: "White blood cells"
+          - text: "Platelets"
+          - text: "Hemoglobin"
+          - text: "Plasma"
+        correctAnswer: "Hemoglobin"
+        explanation: "Hemoglobin is the protein in red blood cells that binds to oxygen and carries it throughout the body."
+        points: 1
+
+      - type: "true-false"
+        text: "The heart has its own electrical conduction system that allows it to beat independently of nervous system signals."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The heart's intrinsic electrical conduction system, including the SA node and AV node, allows it to generate and conduct electrical impulses independently."
+        points: 2
+
+      - type: "multiple-choice"
+        text: "What is the primary function of the aortic valve?"
+        options:
+          - text: "To connect atria and ventricles"
+          - text: "To prevent blood from flowing back into the left ventricle"
+          - text: "To generate heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To prevent blood from flowing back into the left ventricle"
+        explanation: "The aortic valve prevents backflow of blood from the aorta back into the left ventricle during diastole."
+        points: 2
+
+      - type: "multiple-choice"
+        text: "What is the role of the mitral valve?"
+        options:
+          - text: "To connect atria and ventricles"
+          - text: "To prevent blood from flowing back into the left atrium"
+          - text: "To generate heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To prevent blood from flowing back into the left atrium"
+        explanation: "The mitral valve (bicuspid valve) prevents backflow of blood from the left ventricle back into the left atrium during ventricular contraction."
+        points: 2
+
+      - type: "true-false"
+        text: "Pulmonary circulation refers to blood flow between the heart and lungs."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Pulmonary circulation is the part of the cardiovascular system that carries deoxygenated blood from the heart to the lungs and returns oxygenated blood back to the heart."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of the tricuspid valve?"
+        options:
+          - text: "To prevent blood from flowing back into the right atrium"
+          - text: "To connect left atrium and left ventricle"
+          - text: "To generate heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To prevent blood from flowing back into the right atrium"
+        explanation: "The tricuspid valve prevents backflow of blood from the right ventricle back into the right atrium during ventricular contraction."
+        points: 2
+
+      - type: "true-false"
+        text: "The pericardium is a protective sac that surrounds the heart."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The pericardium is a double-walled sac that surrounds the heart, providing protection and reducing friction during heart contractions."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of the endocardium?"
+        options:
+          - text: "To generate electrical impulses"
+          - text: "To provide a smooth inner lining of the heart chambers"
+          - text: "To produce heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To provide a smooth inner lining of the heart chambers"
+        explanation: "The endocardium is the innermost layer of the heart, providing a smooth surface that reduces friction for blood flow."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which layer of the heart wall is responsible for the heart's pumping action?"
+        options:
+          - text: "Endocardium"
+          - text: "Epicardium"
+          - text: "Myocardium"
+          - text: "Pericardium"
+        correctAnswer: "Myocardium"
+        explanation: "The myocardium is the muscular middle layer of the heart wall that contracts and relaxes to pump blood."
+        points: 2
+
+      - type: "true-false"
+        text: "The heart's electrical impulse originates in the AV node before spreading to the ventricles."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "False"
+        explanation: "The electrical impulse originates in the SA node, then travels to the AV node before spreading to the ventricles."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of the papillary muscles?"
+        options:
+          - text: "To generate electrical impulses"
+          - text: "To prevent backflow through heart valves"
+          - text: "To produce heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To prevent backflow through heart valves"
+        explanation: "Papillary muscles attach to the tricuspid and mitral valves via chordae tendineae, preventing these valves from inverting during ventricular contraction."
+        points: 2
+
+      - type: "multiple-choice"
+        text: "Which part of the heart is responsible for conducting electrical impulses to the ventricles?"
+        options:
+          - text: "SA node"
+          - text: "AV node"
+          - text: "Bundle of His"
+          - text: "Purkinje fibers"
+        correctAnswer: "AV node"
+        explanation: "The AV node receives electrical impulses from the SA node and then conducts them to the Bundle of His and Purkinje fibers, which spread the impulse to the ventricles."
+        points: 2
+
+      - type: "true-false"
+        text: "The heart's electrical conduction system ensures synchronized contraction of heart chambers."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The electrical conduction system allows for coordinated and synchronized contraction of the heart's chambers, ensuring efficient blood pumping."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of the chordae tendineae?"
+        options:
+          - text: "To generate electrical impulses"
+          - text: "To connect papillary muscles to heart valves"
+          - text: "To produce heart sounds"
+          - text: "To regulate blood pressure"
+        correctAnswer: "To connect papillary muscles to heart valves"
+        explanation: "Chordae tendineae are fibrous strings that connect papillary muscles to the tricuspid and mitral valves, preventing valve inversion during ventricular contraction."
+        points: 2
+
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Cardiovascular Physiological Mechanisms Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Cardiovascular Physiological Mechanisms"
+    description: "Comprehensive evaluation of advanced cardiovascular physiological mechanisms and regulatory processes for specialized nursing practice."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    questions:
+      - type: "multiple-choice"
+        text: "What is the primary function of the autonomic nervous system in cardiovascular regulation?"
+        options:
+          - text: "Generating red blood cells"
+          - text: "Controlling heart rate and blood vessel constriction"
+          - text: "Producing blood clotting factors"
+          - text: "Filtering blood"
+        correctAnswer: "Controlling heart rate and blood vessel constriction"
+        explanation: "The autonomic nervous system regulates heart rate, blood vessel diameter, and overall cardiovascular response through sympathetic and parasympathetic mechanisms."
+        points: 1
+
+      - type: "true-false"
+        text: "Baroreceptors are primarily responsible for long-term blood pressure regulation."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "False"
+        explanation: "Baroreceptors provide short-term blood pressure regulation by detecting changes in arterial wall stretch and triggering immediate cardiovascular adjustments."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which hormone plays a crucial role in regulating blood volume and blood pressure?"
+        options:
+          - text: "Insulin"
+          - text: "Aldosterone"
+          - text: "Testosterone"
+          - text: "Growth hormone"
+        correctAnswer: "Aldosterone"
+        explanation: "Aldosterone is a key hormone that regulates sodium and potassium balance, directly influencing blood volume and blood pressure."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary mechanism of oxygen transport in the blood?"
+        options:
+          - text: "Plasma dissolution"
+          - text: "Hemoglobin binding"
+          - text: "White blood cell transport"
+          - text: "Direct molecular diffusion"
+        correctAnswer: "Hemoglobin binding"
+        explanation: "Hemoglobin in red blood cells binds to oxygen molecules, allowing efficient transport of oxygen throughout the body."
+        points: 1
+
+      - type: "true-false"
+        text: "The renin-angiotensin-aldosterone system (RAAS) is a key regulatory mechanism for blood pressure."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "RAAS is a hormonal system that regulates blood pressure, fluid balance, and sodium retention through a complex cascade of biochemical interactions."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which component of the cardiac cycle represents ventricular contraction?"
+        options:
+          - text: "Diastole"
+          - text: "Systole"
+          - text: "Atrial filling"
+          - text: "Isovolumetric relaxation"
+        correctAnswer: "Systole"
+        explanation: "Systole is the phase of the cardiac cycle when ventricles contract, pumping blood out of the heart to the pulmonary and systemic circulations."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary role of nitric oxide in cardiovascular physiology?"
+        options:
+          - text: "Blood clotting"
+          - text: "Vasoconstriction"
+          - text: "Vasodilation"
+          - text: "Red blood cell production"
+        correctAnswer: "Vasodilation"
+        explanation: "Nitric oxide is a crucial signaling molecule that causes blood vessel relaxation and vasodilation, improving blood flow and reducing blood pressure."
+        points: 1
+
+      - type: "true-false"
+        text: "Chemoreceptors are primarily responsible for detecting changes in blood oxygen and carbon dioxide levels."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Chemoreceptors in the carotid and aortic bodies detect changes in blood gas concentrations, triggering respiratory and cardiovascular adjustments."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which electrolyte is most critical for maintaining cardiac muscle contractility?"
+        options:
+          - text: "Sodium"
+          - text: "Potassium"
+          - text: "Calcium"
+          - text: "Magnesium"
+        correctAnswer: "Calcium"
+        explanation: "Calcium plays a crucial role in cardiac muscle contraction, controlling the interaction between troponin and tropomyosin during the excitation-contraction coupling process."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What mechanism allows for the synchronization of heart muscle contraction?"
+        options:
+          - text: "Hormonal signaling"
+          - text: "Electrical gap junctions"
+          - text: "Mechanical pressure"
+          - text: "Lymphatic flow"
+        correctAnswer: "Electrical gap junctions"
+        explanation: "Gap junctions between cardiac muscle cells allow rapid electrical signal transmission, ensuring synchronized contraction of the heart muscle."
+        points: 1
+
+      - type: "true-false"
+        text: "Sympathetic nervous system activation increases heart rate and contractility."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Sympathetic nervous system activation triggers the release of norepinephrine, which increases heart rate, contractility, and cardiac output during stress or exercise."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which hormone is released in response to increased blood volume?"
+        options:
+          - text: "Cortisol"
+          - text: "Atrial Natriuretic Peptide (ANP)"
+          - text: "Thyroxine"
+          - text: "Glucagon"
+        correctAnswer: "Atrial Natriuretic Peptide (ANP)"
+        explanation: "ANP is released by heart muscle cells when atrial stretch occurs, promoting sodium and water excretion to reduce blood volume."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of endothelial cells in blood vessels?"
+        options:
+          - text: "Blood cell production"
+          - text: "Regulating vascular tone and permeability"
+          - text: "Generating electrical impulses"
+          - text: "Producing antibodies"
+        correctAnswer: "Regulating vascular tone and permeability"
+        explanation: "Endothelial cells play a crucial role in regulating blood vessel diameter, inflammation, and barrier function."
+        points: 1
+
+      - type: "true-false"
+        text: "Parasympathetic nervous system activation decreases heart rate."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Parasympathetic (vagus nerve) activation releases acetylcholine, which slows heart rate and promotes rest and recovery."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which mechanism is responsible for maintaining blood pH balance?"
+        options:
+          - text: "Respiratory system"
+          - text: "Endocrine system"
+          - text: "Buffering systems"
+          - text: "Lymphatic system"
+        correctAnswer: "Buffering systems"
+        explanation: "Buffering systems, including bicarbonate and protein buffers, help maintain blood pH within a narrow, critical range."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of plasma proteins in cardiovascular physiology?"
+        options:
+          - text: "Oxygen transport"
+          - text: "Maintaining oncotic pressure"
+          - text: "Generating electrical signals"
+          - text: "Producing antibodies"
+        correctAnswer: "Maintaining oncotic pressure"
+        explanation: "Plasma proteins, especially albumin, help maintain oncotic pressure, preventing excessive fluid leakage from blood vessels."
+        points: 1
+
+      - type: "true-false"
+        text: "Capillaries are the primary site of nutrient and waste exchange in the body."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Capillaries have thin walls that allow efficient exchange of nutrients, oxygen, carbon dioxide, and metabolic waste between blood and tissues."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "Which mechanism helps prevent blood clotting in normal physiological conditions?"
+        options:
+          - text: "Platelet aggregation"
+          - text: "Endothelial nitric oxide production"
+          - text: "Inflammatory response"
+          - text: "Hormone secretion"
+        correctAnswer: "Endothelial nitric oxide production"
+        explanation: "Endothelial cells produce nitric oxide, which helps prevent platelet adhesion and maintains blood vessel health."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary role of angiotensin II in cardiovascular regulation?"
+        options:
+          - text: "Reducing blood pressure"
+          - text: "Increasing blood vessel diameter"
+          - text: "Vasoconstriction and sodium retention"
+          - text: "Promoting blood cell production"
+        correctAnswer: "Vasoconstriction and sodium retention"
+        explanation: "Angiotensin II causes vasoconstriction and stimulates aldosterone release, leading to sodium and water retention, which increases blood pressure."
+        points: 1
+
+      - type: "true-false"
+        text: "The Frank-Starling mechanism describes how increased venous return leads to stronger heart muscle contraction."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The Frank-Starling mechanism explains how increased blood volume in the ventricles stretches cardiac muscle, resulting in more forceful contraction."
+        points: 1
+
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"

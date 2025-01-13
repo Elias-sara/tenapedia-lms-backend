@@ -1,0 +1,233 @@
+category:
+  name: "Pharmacy Practice"
+  description: "Advanced professional development courses for pharmacists, focusing on clinical pharmacy, medication management, and evidence-based pharmaceutical care"
+  icon: "/icons/pharmacy-practice.svg"
+  order: 1
+
+instructor:
+  firstName: "Michael"
+  lastName: "Rodriguez"
+  email: "michael.rodriguez@pharmacyeducation.edu"
+  password: "PharmacyExpert2025!"
+  role: "instructor"
+  phone: "1-650-987-6543"
+  profile:
+    bio: "Board-certified Clinical Pharmacist with 15+ years of hospital and research experience. Specializing in pharmacotherapy, drug interactions, and pharmaceutical research."
+    avatar: "/images/instructors/dr-michael-rodriguez.jpg"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  isActive: true
+  createdAt: "2024-01-15"
+  updatedAt: "2025-01-10"
+
+course:
+  title: "Advanced Clinical Pharmacy Practice"
+  description: "A comprehensive, advanced-level course designed to elevate pharmacists' clinical skills and knowledge. This intensive program provides an in-depth exploration of pharmacotherapy, drug interactions, patient counseling, and evidence-based pharmaceutical care. Students will develop advanced clinical reasoning, medication management strategies, and comprehensive understanding of modern pharmacy practice."
+  category: "Pharmacy Practice"
+  image: "/images/courses/advanced-clinical-pharmacy.jpg"
+  instructor:
+    name: "Michael Rodriguez"
+    id: null  # Will be populated during seeding
+    bio: "Board-certified Clinical Pharmacist with 15+ years of hospital and research experience. Specializing in pharmacotherapy, drug interactions, and pharmaceutical research."
+    image: "/images/instructors/dr-michael-rodriguez.jpg"
+  level: "Advanced"
+  duration: "12 weeks"
+  price: 599.99
+  learningOutcomes:
+    - "Master advanced pharmacotherapy techniques"
+    - "Develop comprehensive understanding of drug interactions"
+    - "Analyze complex medication management strategies"
+    - "Implement evidence-based pharmaceutical interventions"
+    - "Enhance patient counseling and medication safety skills"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  status: "published"
+  isPublished: true
+  createdAt: "2024-11-15"
+  updatedAt: "2025-01-10"
+  lastUpdated: "2025-01-10"
+
+modules:
+  - title: "Advanced Pharmacological Mechanisms"
+    courseTitle: "Advanced Pharmacy Practice"
+    description: "In-depth exploration of drug mechanisms, pharmacokinetics, and advanced pharmaceutical principles."
+    courseId: null  # Will be populated during seeding
+    order: 1
+    learningObjectives:
+      - "Understand advanced drug interaction principles"
+      - "Analyze complex pharmacological mechanisms"
+    links:
+      - title: "Pharmacological Mechanisms Reference"
+        url: "https://example.com/pharma-mechanisms"
+      - title: "Advanced Drug Interaction Studies"
+        url: "https://example.com/drug-interactions"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Clinical Medication Management"
+    courseTitle: "Advanced Pharmacy Practice"
+    description: "Comprehensive analysis of advanced medication management strategies, patient-specific interventions, and drug safety protocols."
+    courseId: null  # Will be populated during seeding
+    order: 2
+    learningObjectives:
+      - "Develop advanced medication management strategies"
+      - "Understand patient-specific pharmaceutical interventions"
+    links:
+      - title: "Clinical Medication Management Guide"
+        url: "https://example.com/medication-management"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+lessons:
+  - moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Pharmacological Mechanisms"
+    title: "Pharmacological Foundations"
+    title2: "Advanced Drug Mechanisms"
+    subtitle: "Comprehensive Pharmacological Principles"
+    content: "Detailed exploration of drug mechanisms, pharmacokinetics, and advanced pharmaceutical principles. This lesson delves into the complex interactions between medications and biological systems, examining molecular-level drug interactions, receptor pharmacology, and pharmacodynamic processes."
+    description: "An in-depth, comprehensive analysis of advanced pharmacological mechanisms, focusing on drug interaction complexity and functional significance."
+    videoUrl: "https://example.com/pharmacology-mechanisms-video"
+    videoTitle: "Advanced Pharmacological Mechanisms Video Lecture"
+    duration: 45
+    order: 1
+    resources:
+      - title: "Advanced Pharmacology Textbook"
+        url: "https://medical-library.org/pharmacology-reference"
+      - title: "3D Interactive Drug Interaction Atlas"
+        url: "https://virtual-pharmacy.com/drug-interactions"
+      - title: "Pharmaceutical Research Institute Guide"
+        url: "https://pharma-research.org/mechanisms-guide"
+    links:
+      - title: "Pharmacological Mechanisms Research Database"
+        url: "https://pharmacology-research.org"
+      - title: "Advanced Pharmaceutical Visualization Platform"
+        url: "https://pharma-visualization.com/mechanisms"
+      - title: "International Journal of Pharmacological Research"
+        url: "https://pharmacology-journal.org/advanced-mechanisms"
+    note: "Key pharmacological interaction details"
+    note1: "Molecular drug interaction specifics"
+    note2: "Receptor pharmacology insights"
+    note3: "Pharmacodynamic mechanism complexities"
+    note4: "Cellular-level drug interaction processes"
+    note5: "Therapeutic implications of drug mechanisms"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - moduleId: null  # Will be populated during seeding
+    moduleTitle: "Clinical Medication Management"
+    title: "Clinical Medication Management"
+    title2: "Advanced Pharmaceutical Interventions"
+    subtitle: "Strategic Medication Optimization"
+    content: "Comprehensive analysis of advanced medication management strategies, including patient-specific interventions, drug safety protocols, and therapeutic optimization. This lesson explores the complex processes of personalized pharmacotherapy, drug interaction management, and advanced clinical pharmaceutical practices."
+    description: "Advanced exploration of medication management strategies, providing a deep understanding of comprehensive pharmaceutical interventions and patient-centered care."
+    videoUrl: "/videos/advanced-medication-management.mp4"
+    videoTitle: "Clinical Medication Management: Advanced Pharmaceutical Strategies"
+    duration: 150
+    order: 2
+    resources:
+      - title: "Advanced Medication Management Textbook"
+        url: "https://medical-education.org/medication-management"
+      - title: "Molecular Mechanisms in Drug Interactions"
+        url: "https://pharmaceutical-research.com/drug-interactions"
+      - title: "Comprehensive Medication Safety Compendium"
+        url: "https://medication-safety.org/comprehensive-guide"
+    links:
+      - title: "Medication Management Research Network"
+        url: "https://medication-management-research.org"
+      - title: "International Society of Clinical Pharmacy"
+        url: "https://clinical-pharmacy.org/medication-strategies"
+      - title: "Advanced Pharmaceutical Monitoring Technologies"
+        url: "https://pharma-monitoring-tech.com/intervention-insights"
+    note: "Complex medication management strategies"
+    note1: "Advanced patient-specific pharmaceutical interventions"
+    note2: "Intricate drug interaction management"
+    note3: "Therapeutic drug monitoring principles"
+    note4: "Personalized pharmacotherapy approaches"
+    note5: "Clinical decision-making in pharmaceutical care"
+    note6: "Adaptive strategies in medication management"
+    note7: "Integrative pharmaceutical intervention techniques"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+quizzes:
+  - title: "Advanced Pharmacological Mechanisms Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Pharmacological Mechanisms"
+    description: "Comprehensive evaluation of advanced pharmacological knowledge and drug interaction principles for specialized pharmacy practice."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    isPublished: true
+    studentsEnrolled:
+      - "initial_student_quiz_1"
+      - "initial_student_quiz_2"
+    questions:
+      - type: "multiple-choice"
+        text: "What is the primary mechanism of drug absorption in the small intestine?"
+        options:
+          - text: "Active transport"
+          - text: "Passive diffusion"
+          - text: "Facilitated diffusion"
+          - text: "Endocytosis"
+        correctAnswer: "Passive diffusion"
+        explanation: "Most drugs are absorbed through the small intestine via passive diffusion, moving from high to low concentration."
+        points: 1
+
+      - type: "true-false"
+        text: "Receptor pharmacology plays a crucial role in understanding drug interactions."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "Receptor pharmacology helps explain how drugs interact with specific cellular receptors to produce therapeutic effects."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary goal of pharmacodynamic studies?"
+        options:
+          - text: "Measuring drug metabolism"
+          - text: "Understanding drug-receptor interactions"
+          - text: "Calculating drug dosage"
+          - text: "Predicting side effects"
+        correctAnswer: "Understanding drug-receptor interactions"
+        explanation: "Pharmacodynamics focuses on how drugs interact with target receptors and the resulting physiological changes."
+        points: 1
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Clinical Medication Management Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Clinical Medication Management"
+    description: "Comprehensive evaluation of medication safety protocols, drug interaction management, and advanced pharmaceutical interventions."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    isPublished: true
+    studentsEnrolled:
+      - "initial_student_quiz_1"
+      - "initial_student_quiz_2"
+    questions:
+      - type: "multiple-choice"
+        text: "What is the most critical aspect of personalized pharmacotherapy?"
+        options:
+          - text: "Cost of medication"
+          - text: "Patient-specific factors"
+          - text: "Drug availability"
+          - text: "Pharmaceutical company recommendations"
+        correctAnswer: "Patient-specific factors"
+        explanation: "Personalized pharmacotherapy considers individual patient characteristics such as genetics, age, comorbidities, and potential drug interactions."
+        points: 1
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"

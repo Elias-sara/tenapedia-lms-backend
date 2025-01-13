@@ -1,0 +1,238 @@
+category:
+  name: "Maternity and Obstetric Nursing"
+  description: "Comprehensive professional development courses for nurses specializing in maternal and reproductive health, focusing on prenatal care, childbirth, and women's health management"
+  icon: "/icons/maternity-nursing.svg"
+  order: 1
+
+instructor:
+  firstName: "Sarah"
+  lastName: "Thompson"
+  email: "sarah.thompson@maternitycare.edu"
+  password: "MaternalHealthExpert2025!"
+  role: "instructor"
+  phone: "1-650-456-7890"
+  profile:
+    bio: "Certified Nurse-Midwife with 18+ years of experience in maternal-fetal medicine, specializing in high-risk pregnancies and comprehensive women's reproductive health care."
+    avatar: "/images/instructors/dr-sarah-thompson.jpg"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  isActive: true
+  createdAt: "2024-01-15"
+  updatedAt: "2025-01-10"
+
+course:
+  title: "Advanced Maternal Health Nursing"
+  description: "A comprehensive, advanced-level course designed to elevate nursing professionals' expertise in maternal and reproductive health. This intensive program provides an in-depth exploration of prenatal care, childbirth management, postpartum care, and women's health interventions. Students will develop advanced clinical reasoning, comprehensive assessment skills, and evidence-based strategies for supporting mothers and newborns."
+  category: "Maternity and Obstetric Nursing"
+  image: "/images/courses/advanced-maternity-nursing.jpg"
+  instructor:
+    name: "Sarah Thompson"
+    id: null  # Will be populated during seeding
+    bio: "Certified Nurse-Midwife with 18+ years of experience in maternal-fetal medicine, specializing in high-risk pregnancies and comprehensive women's reproductive health care."
+    image: "/images/instructors/dr-sarah-thompson.jpg"
+  level: "Advanced"
+  duration: "12 weeks"
+  price: 549.99
+  learningOutcomes:
+    - "Master advanced maternal health assessment techniques"
+    - "Develop comprehensive understanding of prenatal and postnatal care"
+    - "Analyze complex obstetric interventions and management strategies"
+    - "Implement evidence-based practices in maternal and newborn care"
+    - "Enhance clinical reasoning for high-risk pregnancy management"
+  studentsEnrolled: 
+    - "initial_student_1"
+    - "initial_student_2"
+  status: "published"
+  isPublished: true
+  createdAt: "2024-11-15"
+  updatedAt: "2025-01-10"
+  lastUpdated: "2025-01-10"
+
+modules:
+  - title: "Advanced Maternal Physiological Mechanisms"
+    courseTitle: "Advanced Maternal Health Nursing"
+    description: "In-depth exploration of maternal physiological processes, reproductive system dynamics, and complex physiological adaptations during pregnancy."
+    courseId: null  # Will be populated during seeding
+    order: 1
+    learningObjectives:
+      - "Understand advanced reproductive system physiology"
+      - "Analyze complex maternal physiological adaptations"
+    links:
+      - title: "Maternal Physiology Research Reference"
+        url: "https://example.com/maternal-physiology"
+      - title: "Advanced Reproductive Health Studies"
+        url: "https://example.com/reproductive-health"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Advanced Obstetric Care and Intervention"
+    courseTitle: "Advanced Maternal Health Nursing"
+    description: "Comprehensive analysis of advanced obstetric care strategies, high-risk pregnancy management, and comprehensive maternal health interventions."
+    courseId: null  # Will be populated during seeding
+    order: 2
+    learningObjectives:
+      - "Develop advanced obstetric care strategies"
+      - "Understand comprehensive maternal health interventions"
+    links:
+      - title: "Advanced Obstetric Care Guide"
+        url: "https://example.com/obstetric-care"
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+lessons:
+  - moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Maternal Physiological Mechanisms"
+    title: "Maternal Physiological Foundations"
+    title2: "Advanced Reproductive Physiology"
+    subtitle: "Comprehensive Maternal Health Principles"
+    content: "Detailed exploration of maternal physiological processes, including hormonal changes, reproductive system dynamics, and complex physiological adaptations during pregnancy and childbirth. This lesson delves into the intricate biological mechanisms that govern maternal health, examining molecular-level interactions, systemic changes, and adaptive responses."
+    description: "In-depth exploration of female reproductive physiology, hormonal regulation, and physiological changes during pregnancy. Students will develop a sophisticated understanding of the complex biological processes underlying maternal health and fetal development."
+    duration: 4
+    videoUrl: "/videos/maternity/maternal-physiological-foundations.mp4"
+    videoTitle: "Maternal Physiological Foundations Video Lecture"
+    links:
+      - title: "Maternal Physiology Research Database"
+        url: "https://maternal-physiology-research.org"
+      - title: "Advanced Maternal Health Visualization Platform"
+        url: "https://maternal-health-visualization.com/mechanisms"
+      - title: "International Journal of Maternal Physiology"
+        url: "https://maternal-physiology-journal.org/advanced-mechanisms"
+    resources:
+      - title: "Maternal Physiology Reference"
+        url: "/resources/maternity/maternal-physiology-reference.pdf"
+      - title: "Pregnancy Physiological Changes Checklist"
+        url: "/resources/maternity/pregnancy-changes-checklist.xlsx"
+    note: "Key maternal physiological adaptation details"
+    note1: "Hormonal changes during pregnancy"
+    note2: "Reproductive system physiological dynamics"
+    note3: "Molecular-level maternal adaptations"
+    note4: "Systemic changes in maternal physiology"
+    note5: "Biological mechanisms of fetal development"
+    objectives:
+      - "Understand advanced reproductive system anatomy"
+      - "Analyze complex hormonal regulation during pregnancy"
+      - "Explore physiological adaptations in maternal systems"
+      - "Investigate molecular mechanisms of fetal development"
+    order: 1
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Obstetric Care and Intervention"
+    title: "Advanced Obstetric Care and Interventions"
+    title2: "Comprehensive Maternal Health Management"
+    subtitle: "Strategic Maternal Care Optimization"
+    content: "Comprehensive study of advanced obstetric care strategies, focusing on prenatal assessment, childbirth management, high-risk pregnancy interventions, and postpartum care. Students will develop advanced clinical skills for comprehensive maternal health support, examining complex clinical scenarios, intervention protocols, and patient-specific care strategies."
+    description: "Comprehensive study of advanced obstetric care strategies, focusing on prenatal assessment, childbirth management, high-risk pregnancy interventions, and postpartum care. Students will develop advanced clinical skills for comprehensive maternal health support."
+    duration: 4
+    videoUrl: "/videos/maternity/advanced-obstetric-care.mp4"
+    videoTitle: "Advanced Obstetric Care and Interventions Video Lecture"
+    links:
+      - title: "Maternal Health Research Network"
+        url: "https://maternal-health-research.org"
+      - title: "Clinical Obstetrics Intervention Strategies"
+        url: "https://clinical-obstetrics.org/interventions"
+      - title: "Advanced Maternal Care Strategies"
+        url: "https://maternal-care-strategies.com/advanced-care"
+    resources:
+      - title: "Obstetric Intervention Protocols"
+        url: "/resources/maternity/obstetric-intervention-guide.pdf"
+      - title: "Maternal Health Assessment Techniques"
+        url: "/resources/maternity/maternal-assessment-techniques.mp4"
+    note: "Complex obstetric care management strategies"
+    note1: "Advanced prenatal assessment techniques"
+    note2: "High-risk pregnancy intervention protocols"
+    note3: "Comprehensive maternal health support strategies"
+    note4: "Patient-specific obstetric care approaches"
+    note5: "Clinical decision-making in maternal health"
+    note6: "Adaptive strategies in obstetric interventions"
+    objectives:
+      - "Develop advanced obstetric care strategies"
+      - "Implement comprehensive maternal health assessments"
+      - "Manage high-risk pregnancy interventions"
+      - "Provide advanced postpartum care support"
+    order: 2
+    isPublished: true
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+quizzes:
+  - title: "Advanced Maternal Physiological Mechanisms Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Maternal Physiological Mechanisms"
+    description: "Comprehensive evaluation of advanced maternal physiological knowledge and reproductive health principles for specialized nursing practice."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    isPublished: true
+    studentsEnrolled:
+      - "initial_student_quiz_1"
+      - "initial_student_quiz_2"
+    questions:
+      - type: "multiple-choice"
+        text: "What hormonal changes are most significant during early pregnancy?"
+        options:
+          - text: "Increased estrogen and progesterone"
+          - text: "Decreased testosterone"
+          - text: "Elevated cortisol levels"
+          - text: "Reduced insulin sensitivity"
+        correctAnswer: "Increased estrogen and progesterone"
+        explanation: "Estrogen and progesterone levels rise significantly during early pregnancy to support fetal development and maternal physiological changes."
+        points: 1
+
+      - type: "true-false"
+        text: "Placental development plays a crucial role in maternal physiological adaptation."
+        options:
+          - text: "True"
+          - text: "False"
+        correctAnswer: "True"
+        explanation: "The placenta is a critical organ that supports fetal development and mediates numerous maternal physiological adaptations during pregnancy."
+        points: 1
+
+      - type: "multiple-choice"
+        text: "What is the primary function of relaxin during pregnancy?"
+        options:
+          - text: "Stimulating milk production"
+          - text: "Softening pelvic ligaments"
+          - text: "Regulating blood sugar"
+          - text: "Increasing bone density"
+        correctAnswer: "Softening pelvic ligaments"
+        explanation: "Relaxin helps soften and relax pelvic ligaments, preparing the body for childbirth by increasing joint mobility."
+        points: 1
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"
+
+  - title: "Advanced Obstetric Care and Intervention Assessment"
+    moduleId: null  # Will be populated during seeding
+    moduleTitle: "Advanced Obstetric Care and Intervention"
+    description: "Comprehensive evaluation of advanced obstetric care strategies, high-risk pregnancy management, and comprehensive maternal health interventions."
+    duration: 45
+    passingScore: 70
+    totalPoints: 10
+    timeLimit: 45
+    maxAttempts: 3
+    showExplanation: true
+    isPublished: true
+    studentsEnrolled:
+      - "initial_student_quiz_1"
+      - "initial_student_quiz_2"
+    questions:
+      - type: "multiple-choice"
+        text: "What is the most critical aspect of high-risk pregnancy management?"
+        options:
+          - text: "Cost of medical interventions"
+          - text: "Patient-specific risk assessment"
+          - text: "Hospital facility resources"
+          - text: "Insurance coverage"
+        correctAnswer: "Patient-specific risk assessment"
+        explanation: "Effective high-risk pregnancy management requires a comprehensive, individualized assessment of maternal and fetal health risks."
+        points: 1
+    createdAt: "2025-01-10"
+    updatedAt: "2025-01-10"

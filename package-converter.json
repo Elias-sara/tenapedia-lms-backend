@@ -1,0 +1,13 @@
+{
+  "name": "seed-config-converter",
+  "version": "1.0.0",
+  "description": "Converts seed-config.yml to Excel",
+  "main": "convert-to-excel.js",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "convert": "node convert-to-excel.js"
+  }
+}
